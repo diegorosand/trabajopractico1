@@ -1,0 +1,31 @@
+/* SELECTOR POR ELEMENTO*/
+
+h1{
+    background-color: red;
+  }
+/* SELECTOR POR CLASE */
+.encabezado1{
+    color:white;
+}
+
+/*SELECTOR POR ID */
+#encabezado1_id{
+    font-size: 16px;
+}
+
+
+input {
+    font    : 1.4em/1.5em "handwriting", cursive, sans-serif;
+  padding : 0 10px;
+  margin  : 10;
+  width   : 80%;
+  background : none;
+}
+
+#precio {
+    color: white;
+    font-size: 56px;
+    text-align: center;
+    background-color: rgb(16, 158, 158);
+    
+}

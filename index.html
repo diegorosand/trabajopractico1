@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>desarrollo react 2023</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<br><br>
+
+<form onsubmit="registrarse(); return false;" name="form_registrarse">
+    <div>
+        <label>Nombre</label>
+        <input type="text" name="nombre" id="nombre_id">
+    </div>
+    <div id="error_nombre"></div>
+
+    <div>
+        <label>Apellido</label>
+        <input type="text" name="apellido" id="apellido_id">
+    </div>
+    <div id="error_apellido"></div>
+
+
+    <div>
+        <label>DNI</label>
+        <input type="number" name="dni" id="dni_id">
+    </div>
+    <div id="error_dni"></div>
+
+    <div>
+        <label>E-mail</label>
+        <input type="email" name="email" id="email_id">
+    </div>
+    <div id="error_email"></div>
+
+
+    <div>
+        <label>Telefono</label>
+        <input type="text" name="telefono" id="telefono_id">
+    </div>
+    <div id="error_telefono"></div>
+
+    <div>
+        <label>Tipo de seguro</label>
+        <select name="seguro" id="seguro_id" onchange="cambiarSeguro()">
+            <option value="basico">Basico</option>
+            <option value="intermedio">Intermedio</option>
+            <option value="premium">Premium</option>
+        </select>
+    </div>
+    <br>
+    <div id="precio"></div>
+
+    <div>
+        <label>Contraseña</label>
+        <input type="password" name="password" id="password_id">
+    </div>
+    <div id="error_password"></div>
+
+
+    <button type="submit">Registrarse</button>
+
+</form>
+
+</body>
+<script src="./script.js"></script>
+</html>
